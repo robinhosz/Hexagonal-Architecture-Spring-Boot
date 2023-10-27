@@ -6,7 +6,6 @@ public class Customer {
     private Address address;
     private String cpf;
     private Boolean isValidCpf;
-
      public Customer(String id, String name, Address address, String cpf, Boolean isValidCpf) {
         this.id = id;
         this.name = name;
