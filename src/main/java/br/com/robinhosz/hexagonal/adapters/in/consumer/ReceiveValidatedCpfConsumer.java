@@ -1,5 +1,6 @@
-package br.com.robinhosz.hexagonal.adapters.in.consumer.message;
+package br.com.robinhosz.hexagonal.adapters.in.consumer;
 
+import br.com.robinhosz.hexagonal.adapters.in.consumer.message.CustomerMessage;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Component;
 
